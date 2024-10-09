@@ -4,14 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
+    <title>Copied</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
-    <h1>Chickens all around!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aspernatur qui quidem quibusdam, minima
-        praesentium iure maxime aliquid sint accusantium earum eaque perferendis iusto vitae voluptatibus vero obcaecati
-        exercitationem? Ut?</p>
+    <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">Mateo elo</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+    </svg>
 </body>
 
 </html>
